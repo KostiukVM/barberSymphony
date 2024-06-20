@@ -1,5 +1,5 @@
-controllers:
-    resource:
-        path: ../src/Controller/
-        namespace: App\Controller
-    type: attribute
+# config/routes.yaml
+appointment_new:
+    path: /appointment/new
+    controller: App\Controller\AppointmentController::new
+    methods: [GET, POST]

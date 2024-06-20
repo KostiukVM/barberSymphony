@@ -1,0 +1,5 @@
+# config/routes.yaml
+appointment_new:
+    path: /appointment/new
+    controller: App\Controller\AppointmentController::new
+    methods: [GET, POST]
